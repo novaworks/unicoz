@@ -1,7 +1,7 @@
 <div id="headerSearchModal" class="full-search-reveal">
   <button id="btn-close-search-modal" class="close-button close-headerSearchModal" aria-label="Close menu" type="button" data-close>
-    <svg class="unicoz-close-canvas">
-      <use xlink:href="#unicoz-close-canvas"></use>
+    <svg class="nova-close-canvas">
+      <use xlink:href="#nova-close-canvas"></use>
     </svg>
   </button>
   <div class="site-search full-screen">

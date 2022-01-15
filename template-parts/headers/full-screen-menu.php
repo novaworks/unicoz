@@ -1,7 +1,7 @@
 <div id="fullscreen-menu" class="nova-fullscreen-menu">
   <button id="btn-close-modal" class="close-button close-fullscreen-menu" aria-label="Close menu" type="button" data-close="">
-          <svg class="unicoz-close-canvas">
-            <use xlink:href="#unicoz-close-canvas"></use>
+          <svg class="nova-close-canvas">
+            <use xlink:href="#nova-close-canvas"></use>
           </svg>
   </button>
   <div class="nova-container">
