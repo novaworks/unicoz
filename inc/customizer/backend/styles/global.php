@@ -58,7 +58,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'accent_color',
     'label'       => esc_html__( 'Accent Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#C49863',
+    'default'     => '#040404',
     'priority'    => 10,
 ) );
 
@@ -126,7 +126,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'site_link_hover_color',
     'label'       => esc_html__( 'Link Hover Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#C49863',
+    'default'     => '#040404',
     'priority'    => 10,
 ) );
 // ---------------------------------------------
@@ -158,7 +158,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'secondary_button_color',
     'label'       => esc_html__( 'Secondary Button Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#C49863',
+    'default'     => '#040404',
     'priority'    => 10,
 ) );
 // ---------------------------------------------

@@ -55,7 +55,7 @@ Kirki::add_field( 'unicoz', array(
     'label'       => esc_html__( 'Body Font', 'unicoz' ),
     'section'     => $section,
     'default'     => array(
-        'font-family'    => 'Poppins',
+        'font-family'    => 'Jost',
         'variant'        => '400',
         'subsets'        => array( 'latin-ext' ),
     ),
@@ -80,7 +80,7 @@ Kirki::add_field( 'unicoz', array(
     'label'       => esc_html__( 'Headings Font', 'unicoz' ),
     'section'     => $section,
     'default'     => array(
-        'font-family'    => 'Bellefair',
+        'font-family'    => 'Jost',
         'variant'        => '400',
         'subsets'        => array( 'latin' ),
     ),

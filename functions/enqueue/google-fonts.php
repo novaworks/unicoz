@@ -20,18 +20,18 @@ if ( ! function_exists('nova_enqueue_google_fonts_url') ) :
 
 			$fonts_url = '';
 			$fonts     = array();
-			if( $main_font != '' && $main_font != 'Poppins' ) {
+			if( $main_font != '' && $main_font != 'Jost' ) {
 				$fonts[] = $main_font.':ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
 			}else {
-				if ( 'off' !== _x( 'on', 'Poppins font: on or off', 'unicoz' ) ) {
-						$fonts[] = 'Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
+				if ( 'off' !== _x( 'on', 'Jost font: on or off', 'unicoz' ) ) {
+						$fonts[] = 'Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
 				}
 			}
-			if( $secondary_font != '' && $secondary_font != 'Bellefair' ) {
+			if( $secondary_font != '' && $secondary_font != 'Jost' ) {
 				$fonts[] = $secondary_font.':ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
 			}else {
-				if ( 'off' !== _x( 'on', 'Bellefair font: on or off', 'unicoz' ) ) {
-						$fonts[] = 'Bellefair:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
+				if ( 'off' !== _x( 'on', 'Jost font: on or off', 'unicoz' ) ) {
+						$fonts[] = 'Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700';
 				}
 			}
 

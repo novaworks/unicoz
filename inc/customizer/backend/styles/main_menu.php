@@ -45,7 +45,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'main_menu_accent_color',
     'label'       => esc_html__( 'Accent Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#C49863',
+    'default'     => '#040404',
     'priority'    => 10,
 
 ) );
