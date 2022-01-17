@@ -193,7 +193,7 @@
 				'footer_background_color' 		=> '#000',
 				'footer_font_color' 					=> '#fff',
 				'footer_headings_color'             	=> '#fff',
-				'footer_text' 							=> esc_html__( '© 2021 Unicoz All rights reserved. Designed by Novaworks', 'unicoz' ),
+				'footer_text' 							=> esc_html__( '© 2022 Unicoz All rights reserved. Designed by Novaworks', 'unicoz' ),
 
 				//Support list
 				'site_chat_link' 						=> 'https://novaworks.ticksy.com/',

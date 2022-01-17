@@ -29,6 +29,6 @@ Kirki::add_field( 'unicoz', array(
     'settings' => 'footer_text',
     'label'    => esc_html__( 'Copyright Text', 'unicoz' ),
     'section'  => $section,
-    'default'  => esc_html__( '© 2021 Unicoz All rights reserved. Designed by Novaworks', 'unicoz' ),
+    'default'  => esc_html__( '© 2022 Unicoz All rights reserved. Designed by Novaworks', 'unicoz' ),
     'priority' => 10,
 ) );

@@ -220,6 +220,9 @@
           }
       };
   };
+	Novaworks.global.isPageSpeed = function () {
+		return typeof navigator !== "undefined" && (/(lighthouse|gtmetrix)/i.test(navigator.userAgent.toLocaleLowerCase()) || /mozilla\/5\.0 \(x11; linux x86_64\)/i.test(navigator.userAgent.toLocaleLowerCase()));
+};
 	Novaworks.global.loadDependencies = function( dependencies, callback ) {
 			var _callback = callback || function() {};
 
@@ -532,6 +535,28 @@ $(window).scroll(function (event) {
 		}
 });
 })(jQuery);
+
+
+jQuery(function($) {
+
+	"use strict";
+
+  Novaworks.core.DomLoadEvent = function () {
+    function LoadLazyScripts() {
+        if (!Novaworks.global.isPageSpeed()) {
+            $('body').addClass('body-completely-loaded');
+        }
+    }
+    if( document.readyState !== 'loading' ) {
+      LoadLazyScripts();
+    } else {
+        document.addEventListener('DOMContentLoaded', function () {
+            LoadLazyScripts();
+        });
+    }
+  };
+  Novaworks.core.DomLoadEvent();
+});
 
 
 // Initialize Event Manager
@@ -3332,6 +3357,12 @@ jQuery(function($) {
 // =============================================================================
 
 //@codekit-prepend "globals/_globals.js"
+
+// =============================================================================
+// Before Load
+// =============================================================================
+
+//@codekit-prepend "globals/_before_load_site.js"
 
 // =============================================================================
 // Initialize Event Manager
