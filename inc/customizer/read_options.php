@@ -91,18 +91,18 @@
 				'pager_header_heading_color' => '#000',
 
 				//form
-				'button_radius' 						=> '3',
-				'field_radius' 							=> '5',
+				'button_radius' 						=> '0',
+				'field_radius' 							=> '0',
 
 				// Fonts
 				'font_size' 							=> '16',
-				'secondary_font_weight' 	=> '400',
+				'secondary_font_weight' 	=> '700',
 				'main_font' 							=> array('font-family' => 'Jost',  'variant' => '400', 'subsets' => array('latin')),
 				'secondary_font' 						=> array('font-family' => 'Jost', 'variant' => '600', 'subsets' => array('latin')),
 
 				// Content Styling
-				'primary_color'             	=> '#616161',
-				'secondary_color'           	=> '#292929',
+				'primary_color'             	=> '#777777',
+				'secondary_color'           	=> '#040404',
 				'accent_color' 								=> '#040404',
 				'accent_color_2' 							=> '#000000',
 				'border_color' 								=> '#ebebeb',

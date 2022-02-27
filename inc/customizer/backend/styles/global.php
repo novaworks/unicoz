@@ -24,7 +24,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'primary_color',
     'label'       => esc_html__( 'Main Font Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#616161',
+    'default'     => '#777777',
     'priority'    => 10,
 ) );
 
@@ -41,7 +41,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'secondary_color',
     'label'       => esc_html__( 'Secondary Font Color', 'unicoz' ),
     'section'     => $section,
-    'default'     => '#292929',
+    'default'     => '#040404',
     'priority'    => 10,
 ) );
 
@@ -174,7 +174,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'button_radius',
     'label'       => esc_html__( 'Button Radius', 'unicoz' ),
     'section'     => $section,
-    'default'     => 3,
+    'default'     => 0,
     'priority'    => 10,
     'choices'     => array(
         'min'  => 0,
@@ -195,7 +195,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'field_radius',
     'label'       => esc_html__( 'Field Radius', 'unicoz' ),
     'section'     => $section,
-    'default'     => 5,
+    'default'     => 0,
     'priority'    => 10,
     'choices'     => array(
         'min'  => 0,

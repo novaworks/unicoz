@@ -395,3 +395,7 @@ icons
   content: "\ea3b";
 }
 
+.ic-059-quote::before {
+  content: "\ea3c";
+}
+

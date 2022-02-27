@@ -1,7 +1,7 @@
 .author-info {
   display: flex;
   align-items: center;
-  border: solid 1px;
+  border: solid 1px v(site-border-color);
   padding: rem-calc(30);
   margin-top: rem-calc(34);
 
@@ -29,7 +29,7 @@
         width: rem-calc(25);
         height: rem-calc(25);
         margin: rem-calc(5);
-        border: solid 1px;
+        border: solid 1px v(site-border-color);
         border-radius: 50%;
       }
     }

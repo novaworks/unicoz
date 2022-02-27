@@ -138,9 +138,8 @@ $avatar-size: 78 !default;
 
             b.fn {
               color: v(site-heading-color);
-              font-weight: 600;
-              font-size: rem-calc(14);
-              text-transform: uppercase;
+              font-weight: 700;
+              font-size: rem-calc(16);
               @include breakpoint(small only) {
                 margin-left: rem-calc(15);
               }

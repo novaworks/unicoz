@@ -98,7 +98,7 @@ Kirki::add_field( 'unicoz', array(
     'settings'    => 'secondary_font_weight',
     'label'       => esc_html__( 'Headings Font Weight', 'unicoz' ),
     'section'     => $section,
-    'default'     => '400',
+    'default'     => '700',
     'priority'    => 10,
     'choices'     => array(
         '300'     => '300',

@@ -73,14 +73,6 @@
     @include widget_meta();
   }
 }
-.widget.widget_archive ul li a, .widget.widget_categories ul li a, .widget.widget_meta ul li a, .widget.widget_nav_menu ul li a, .widget.widget_pages ul li a {
-  -webkit-transition: padding .3s ease;
-  -o-transition: padding .3s ease;
-  transition: padding .3s ease;
-  &:hover {
-    padding-left: rem-calc(12);
-  }
-}
 #sb_instagram {
   margin: 0 -10px !important;
 }

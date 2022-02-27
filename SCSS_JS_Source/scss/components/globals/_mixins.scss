@@ -140,8 +140,9 @@
 		margin: 0 rem-calc(7) rem-calc(7) 0;
 		text-transform: capitalize;
 		font-size: rem-calc(12) !important;
+    font-weight:600 !important; 
 		line-height: 1.33334;
-		background-color: v(site-border-color);
+		border: solid 1px v(site-border-color);
     border-radius: v(site-button-radius);
 
 		&:hover {
