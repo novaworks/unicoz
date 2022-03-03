@@ -7,8 +7,8 @@ if ( ! function_exists( 'unicoz_add_extra_hook_to_product_item' ) ) :
 endif;
 add_action('kitify/products/before_render', 'unicoz_add_extra_hook_to_product_item' );
 
-if ( ! function_exists( 'unicoz_add_grid_list_display' ) ) :
-function unicoz_add_grid_list_display() {
+if ( ! function_exists( 'kitify_add_grid_list_display' ) ) :
+function kitify_add_grid_list_display() {
   echo '<div class="shop-display-type">
 				<span class="shop-display-grid active">
 					<svg class="unicoz-grid-icon">
