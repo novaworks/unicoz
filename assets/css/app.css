@@ -20795,18 +20795,66 @@ body.woocommerce-shop .site-main-content-wrapper .widget_layered_nav_filters {
   @media print, screen and (min-width: 64em) {
     body.woocommerce-shop .site-main-content-wrapper .widget_layered_nav_filters {
       margin: 0 0 1.25rem; } }
-body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product {
+body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product,
+body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product {
   width: 50%; }
   @media print, screen and (min-width: 40em) {
-    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product {
+    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product,
+    body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product {
       width: calc(100% / 3); } }
   @media screen and (min-width: 80em) {
-    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product {
+    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product,
+    body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product {
       padding: 0 0.9375rem 1.875rem;
       display: flex;
       flex-direction: column;
       text-align: left;
       width: calc(100% / 4); } }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product span.onsale,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product span.onsale {
+    position: absolute;
+    background: #fff;
+    font-size: 0.8125rem;
+    padding: 0.3125rem 0.625rem;
+    margin: 0.625rem; }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product .woocommerce-loop-product__title,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product .woocommerce-loop-product__title {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem; }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product .product-item__description--button,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product .product-item__description--button {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    padding: 0 1.5625rem;
+    text-align: center;
+    z-index: 12;
+    transition: all 0.3s ease-in-out;
+    transform: translate(-50%, -50%); }
+    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product .product-item__description--button .button,
+    body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product .product-item__description--button .button {
+      width: auto; }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product span.price,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product span.price {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--site-wc-price);
+    display: block; }
+    body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product span.price ins,
+    body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product span.price ins {
+      text-decoration: none; }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product:hover .product-item__description--button,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product:hover .product-item__description--button {
+    opacity: 1; }
+
 ul.products {
   list-style: none;
   margin: 0 -0.75rem 2.5rem;
@@ -20820,6 +20868,8 @@ ul.products {
   ul.products .product {
     position: relative;
     padding: 0 0.75rem; }
+    ul.products .product:hover .product-item__description--button {
+      opacity: 1; }
     ul.products .product.outofstock .product-item__description--actions .button:after, ul.products .product.product-type-variable .product-item__description--actions .button:after {
       font-size: 14px; }
     ul.products .product .product-item__description--actions .nova_product_quick_view_btn {

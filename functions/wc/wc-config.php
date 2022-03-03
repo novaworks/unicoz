@@ -106,8 +106,8 @@ function unicoz_add_toolbar_close(){
 }
 endif;
 
-if ( !function_exists('unicoz_setup_toolbar')):
-function unicoz_setup_toolbar(){
+if ( !function_exists('kitify_setup_toolbar')):
+function kitify_setup_toolbar(){
     if(empty(wc_get_loop_prop('kitify_loop_before')) && (is_shop() || is_product_taxonomy())){
         wc_set_loop_prop('kitify_loop_allow_extra_filters', true);
     }
