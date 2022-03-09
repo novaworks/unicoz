@@ -39,8 +39,11 @@
 .widget.woocommerce li .count,
 .widget.wcapf-ajax-term-filter ul li .count {
   float: right;
+  background: transparent;
+  padding: 0;
   color: #999;
-  font-size: 0.9em;
+  font-size: rem-calc(13);
+  font-weight: 400;
   margin-right: 15px;
   text-align: right;
 }

@@ -13,3 +13,21 @@ body:not(.body-completely-loaded){
 .wvr-customer-select {
   padding: 0 rem-calc(10) !important;
 }
+.kitify-sidebar {
+  &.kitify-sidebar-layout_02 {
+    .widget {
+      border: solid 1px v(site-border-color);
+      padding: rem-calc(24);
+      .widget-title {
+        margin-top: 0;
+        padding-top: 0;
+        &:before {
+          display: none;
+        }
+      }
+      .wcapf-price-filter-wrapper {
+        padding: 0;
+      }
+    }
+  }
+}

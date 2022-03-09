@@ -98,7 +98,25 @@ if(!function_exists('unicoz_kitify_change_postformat_icon')){
         return $icon;
     }
 }
-
+add_filter('kitify/sidebar/style/sidebar_style', 'unicoz_kitify_add_sidebar_style');
+if(!function_exists('unicoz_kitify_add_sidebar_style')){
+    function unicoz_kitify_add_sidebar_style(){
+        return [
+            '1' => esc_html__('Default', 'unicoz'),
+            '2' => esc_html__('Shop Sidebar', 'unicoz'),
+        ];
+    }
+}
+add_filter('kitify/wootabs/layout/tabs_layout', 'unicoz_kitify_tabs_layout');
+if(!function_exists('unicoz_kitify_tabs_layout')){
+    function unicoz_kitify_tabs_layout(){
+        return [
+            'default' => esc_html__('Default', 'unicoz'),
+            'tab_left' => esc_html__('Tabs left', 'unicoz'),
+            'accordion' => esc_html__('Accordion', 'unicoz'),
+        ];
+    }
+}
 // -----------------------------------------------------------------------------
 // Elementor register breakpoint
 // -----------------------------------------------------------------------------

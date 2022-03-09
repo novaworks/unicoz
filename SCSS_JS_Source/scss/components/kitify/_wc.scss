@@ -124,6 +124,7 @@
   	.yith-wcwl-wishlistaddedbrowse {
   		display: flex;
   		align-items: center;
+			margin-left: rem-calc(15);
 
   		&.show {
   			.feedback {

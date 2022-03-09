@@ -22,7 +22,7 @@ body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products,
       padding: 0 rem-calc(15) rem-calc(30);
       display: flex;
       flex-direction: column;
-      text-align: left;
+      text-align: center;
       width: calc(100% / 4);
     }
     span.onsale {
@@ -54,11 +54,15 @@ body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products,
          width: auto;
        }
     }
+
     span.price {
       text-align: center;
       @include product_price(16, 0,500);
       color: v(site-wc-price);
       display: block;
+    }
+    .star-rating {
+      margin: 0 auto;
     }
     &:hover {
       .product-item__description--button {
@@ -140,7 +144,7 @@ ul.products {
 
       .product-item__thumbnail {
         position: relative;
-
+        overflow: hidden;
         .product-item__thumbnail_overlay {
           position: absolute;
           top: 0;
@@ -156,8 +160,7 @@ ul.products {
            opacity: 0;
            width: 100%;
            left: 50%;
-           bottom: rem-calc(25);
-           padding: 0 rem-calc(25);
+           bottom: rem-calc(0);
            text-align: center;
            z-index: 12;
            @include global_transition;
@@ -220,7 +223,6 @@ ul.products {
       }
 
       .product-item__thumbnail-placeholder {
-        margin-bottom: rem-calc(8);
 
         .product_second_image {
           width: 100%;
@@ -317,11 +319,17 @@ ul.products {
 
         .product-item__description--info {
           display: flex;
+          align-items: center;
           position: relative;
           @include global-transition();
 
           .info-left {
+            display: flex;
             width: 65%;
+            flex-direction: column;
+            .title {
+              order: 2;
+            }
           }
 
           .info-right {
@@ -350,7 +358,7 @@ ul.products {
           }
 
           span.price {
-            @include product_price(16, 0,500);
+            @include product_price(14, 0,500);
             color: v(site-wc-price);
             display: block;
           }
@@ -387,7 +395,6 @@ ul.products {
          opacity: 1;
          width: 100%;
          padding: rem-calc(12);
-         border-radius: 3px;
          transform: translate3d(0, 15px, 0);
          transition: all 0.3s ease-in-out;
        }

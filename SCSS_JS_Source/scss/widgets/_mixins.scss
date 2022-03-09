@@ -201,13 +201,13 @@ $links_list_item_margin_vertical: rem-calc(13) !default;
   &:after {
     position: absolute;
     right: 0;
-    @include nova_icon('\ea12');
+    @include nova_icon('\ea02');
     font-size: rem-calc(12);
     line-height: rem-calc(24);
   }
   &.close {
     &:after {
-      @include nova_icon('\ea02');
+      @include nova_icon('\ea12');
       font-size: rem-calc(12);
       line-height: rem-calc(24);
     }

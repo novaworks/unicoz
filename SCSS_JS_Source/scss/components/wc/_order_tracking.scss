@@ -1,10 +1,13 @@
 .track_order {
-  @include breakpoint(large) {
-    max-width: rem-calc(550);
-    margin: 0 auto;
-  }
 
   p.form-row:last-of-type {
     margin-bottom: 0;
+  }
+  .input-text {
+    background: #FFF;
+    border-color: #FFF;
+  }
+  .button {
+    width: 100%;
   }
 }
