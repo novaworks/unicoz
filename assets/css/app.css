@@ -19488,7 +19488,7 @@ body.progress {
     #nova_wc_quickview .nova_wc_quickview__content .site-content .product.product-type-grouped form.cart.grouped_form {
       display: block; }
     #nova_wc_quickview .nova_wc_quickview__content .site-content .product.product-type-grouped form.cart .button {
-      padding: 1rem 2rem 0.9375rem;
+      padding: 1rem 2rem 0.9375rem 0 !important;
       width: 100%; }
     #nova_wc_quickview .nova_wc_quickview__content .site-content .product.product-type-grouped form.cart .yith-wcwl-add-to-wishlist {
       border: none;
@@ -22648,7 +22648,7 @@ ul.products.products-grid-2 {
   display: block; }
 
 .single-product .product.product-type-grouped form.cart .button {
-  padding: 1rem 2rem 0.9375rem;
+  padding: 1rem 2rem 0.9375rem 0 !important;
   width: 100%; }
 
 .single-product .product.product-type-grouped form.cart .yith-wcwl-add-to-wishlist {
