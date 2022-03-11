@@ -96,7 +96,7 @@
 
 				// Fonts
 				'font_size' 							=> '16',
-				'secondary_font_weight' 	=> '700',
+				'secondary_font_weight' 	=> '600',
 				'main_font' 							=> array('font-family' => 'Jost',  'variant' => '400', 'subsets' => array('latin')),
 				'secondary_font' 						=> array('font-family' => 'Jost', 'variant' => '600', 'subsets' => array('latin')),
 

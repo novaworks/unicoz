@@ -11656,8 +11656,8 @@ hr {
   position: absolute;
   width: 54px;
   height: 54px;
-  margin: 4px;
-  border: 4px solid var(--site-accent-color);
+  margin: 2px;
+  border: 2px solid var(--site-accent-color);
   border-radius: 50%;
   animation: nova-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: var(--site-accent-color) transparent transparent transparent; }
@@ -19769,6 +19769,10 @@ body.progress {
       #nova_wc_quickview .nova_wc_quickview__content .site-content .product div:not(.elementor-widget-container) > .product_meta a {
         display: inline-block;
         margin-right: 0.3125rem; }
+    #nova_wc_quickview .nova_wc_quickview__content .site-content .product .yith-wcwl-wishlistaddedbrowse,
+    #nova_wc_quickview .nova_wc_quickview__content .site-content .product .yith-wcwl-wishlistexistsbrowse {
+      margin-bottom: 0;
+      margin-top: 0.9375rem; }
     #nova_wc_quickview .nova_wc_quickview__content .site-content .product .product_title {
       font-size: 1.5rem;
       margin-bottom: 1rem; }

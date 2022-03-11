@@ -123,6 +123,11 @@ body.progress {
         @import '../product/product_add_to_wishlist';
         @import '../product/product_share';
         @import '../product/product_meta';
+        .yith-wcwl-wishlistaddedbrowse,
+        .yith-wcwl-wishlistexistsbrowse {
+          margin-bottom: 0;
+          margin-top: rem-calc(15);
+        }
         .product_title {
           font-size: rem-calc(24);
           margin-bottom: rem-calc(16);
