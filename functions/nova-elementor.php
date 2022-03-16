@@ -71,6 +71,8 @@ if(!function_exists('unicoz_kitify_add_product_grid_style')){
         return [
             '1' => esc_html__('Default', 'unicoz'),
             '2' => esc_html__('Bordered Grid', 'unicoz'),
+            '3' => esc_html__('Unicoz Style', 'unicoz'),
+            '4' => esc_html__('Unicoz Style 2', 'unicoz'),
         ];
     }
 }
