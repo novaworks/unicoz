@@ -15865,6 +15865,8 @@ html.mobile-reveal-open {
 
 .nav-menu ul.mega-menu ul.mega-menu-main > li {
   padding: 40px; }
+  .nav-menu ul.mega-menu ul.mega-menu-main > li:not(:last-child) {
+    border-right: solid 1px var(--site-border-color); }
   .nav-menu ul.mega-menu ul.mega-menu-main > li > a {
     display: inline-block;
     padding: 0; }

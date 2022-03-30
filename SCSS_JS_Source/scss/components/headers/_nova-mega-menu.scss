@@ -408,6 +408,9 @@
 }
 .nav-menu ul.mega-menu ul.mega-menu-main > li {
 	padding: 40px;
+	&:not(:last-child) {
+		border-right: solid 1px v(site-border-color);
+	}
 	> a {
 		display: inline-block;
 		padding: 0;
