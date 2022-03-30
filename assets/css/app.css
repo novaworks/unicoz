@@ -15841,14 +15841,12 @@ html.mobile-reveal-open {
 
 .main-navigation .mega-sub-menu > a,
 .main-navigation .mega-sub-menu > span {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   line-height: 1.875;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--site-heading-color);
-  text-transform: uppercase;
   margin-bottom: 1rem;
-  display: block;
-  letter-spacing: 1.6px; }
+  display: block; }
 
 .main-navigation .container-fluid .mega-menu-main {
   margin-left: -60px;

@@ -379,14 +379,12 @@
 
 .main-navigation .mega-sub-menu > a,
 .main-navigation .mega-sub-menu > span {
-	font-size: rem-calc(14);
+	font-size: rem-calc(18);
 	line-height: 1.875;
-	font-weight: 600;
+	font-weight: 700;
 	color: v(site-heading-color);
-	text-transform: uppercase;
 	margin-bottom: rem-calc(16);
 	display: block;
-	letter-spacing: 1.6px;
 }
 
 .main-navigation .container-fluid .mega-menu-main {
