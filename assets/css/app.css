@@ -20826,6 +20826,9 @@ body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .prod
       flex-direction: column;
       text-align: center;
       width: calc(100% / 4); } }
+  body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail,
+  body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    width: 100%; }
   body.woocommerce div:not(.kitify-products__list_wrapper) > ul.products .product span.onsale,
   body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products .product span.onsale {
     position: absolute;

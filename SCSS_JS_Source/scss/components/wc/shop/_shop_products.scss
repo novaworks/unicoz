@@ -25,6 +25,9 @@ body.woocommerce section:not(.kitify-products__list_wrapper) > ul.products,
       text-align: center;
       width: calc(100% / 4);
     }
+    img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+      width: 100%;
+    }
     span.onsale {
       position: absolute;
       background: #fff;
