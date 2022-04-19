@@ -6,7 +6,7 @@
 
 if ( ! function_exists('nova_styles') ) :
 function nova_styles() {
-	$theme_version = defined('WP_DEBUG') && WP_DEBUG ? time() : nova_theme_version();
+	$theme_version = defined('NOVA_DEBUG') && NOVA_DEBUG ? time() : nova_theme_version();
 	if ( NOVA_WOOCOMMERCE_IS_ACTIVE ) {
 			wp_enqueue_style('select2');
 	}
