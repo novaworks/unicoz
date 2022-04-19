@@ -47,20 +47,20 @@ add_filter('kitify/banner/control/animation_effect', 'unicoz_kitify_add_banner_a
 if(!function_exists('unicoz_kitify_add_banner_animation_effect')){
     function unicoz_kitify_add_banner_animation_effect(){
         return [
-          'none'   => esc_html__( 'None', 'kitify' ),
-          'hidden-content'   => esc_html__( 'Hidden Content', 'kitify' ),
-          'unicoz-1'   => esc_html__( 'Unicoz', 'kitify' ),
-					'lily'   => esc_html__( 'Lily', 'kitify' ),
-					'sadie'  => esc_html__( 'Sadie', 'kitify' ),
-					'layla'  => esc_html__( 'Layla', 'kitify' ),
-					'oscar'  => esc_html__( 'Oscar', 'kitify' ),
-					'marley' => esc_html__( 'Marley', 'kitify' ),
-					'ruby'   => esc_html__( 'Ruby', 'kitify' ),
-					'roxy'   => esc_html__( 'Roxy', 'kitify' ),
-					'bubba'  => esc_html__( 'Bubba', 'kitify' ),
-					'romeo'  => esc_html__( 'Romeo', 'kitify' ),
-					'sarah'  => esc_html__( 'Sarah', 'kitify' ),
-					'chico'  => esc_html__( 'Chico', 'kitify' ),
+          'none'   => esc_html__( 'None', 'unicoz' ),
+          'hidden-content'   => esc_html__( 'Hidden Content', 'unicoz' ),
+          'unicoz-1'   => esc_html__( 'Unicoz', 'unicoz' ),
+					'lily'   => esc_html__( 'Lily', 'unicoz' ),
+					'sadie'  => esc_html__( 'Sadie', 'unicoz' ),
+					'layla'  => esc_html__( 'Layla', 'unicoz' ),
+					'oscar'  => esc_html__( 'Oscar', 'unicoz' ),
+					'marley' => esc_html__( 'Marley', 'unicoz' ),
+					'ruby'   => esc_html__( 'Ruby', 'unicoz' ),
+					'roxy'   => esc_html__( 'Roxy', 'unicoz' ),
+					'bubba'  => esc_html__( 'Bubba', 'unicoz' ),
+					'romeo'  => esc_html__( 'Romeo', 'unicoz' ),
+					'sarah'  => esc_html__( 'Sarah', 'unicoz' ),
+					'chico'  => esc_html__( 'Chico', 'unicoz' ),
         ];
     }
 }
