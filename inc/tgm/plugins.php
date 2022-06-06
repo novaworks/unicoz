@@ -14,13 +14,13 @@ function unicoz_theme_register_required_plugins() {
       'version'            => '1.0.0'
     ),
     'kitify' => array(
-      'name'               => esc_html__('Novaworks','unicoz'),
+      'name'               => esc_html__('Kitify','unicoz'),
       'slug'               => 'kitify',
       'source'             => 'http://assets.novaworks.net/plugins/kitify.zip',
       'required'           => true,
       'description'        => esc_html__('A perfect plugin for Elementor','unicoz'),
       'demo_required'      => true,
-      'version'            => '1.0.0'
+      'version'            => '1.0.1'
     ),
     'demo-importer' => array(
       'name'               => esc_html__('Unicoz Package Demo Data','juliette'),
